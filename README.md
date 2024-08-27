@@ -28,10 +28,6 @@
 
 [SOLID en React.JS Inglés](https://medium.com/docler-engineering/applying-solid-to-react-ca6d1ff926a4)
 
-[SOLID en Java Inglés](https://medium.com/@shavi22/solid-principles-in-java-cf9f5b167600)
-
-[SOLID en Java con Ejemplos Inglés](https://www.javaguides.net/2020/01/solid-principles-in-java-with-examples.html)
-
 *********
 
 ### DRY
