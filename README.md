@@ -1,7 +1,5 @@
 
-# Guía para entrevistas tecnicas como Ingeniero de software
-
-
+# Guía para entrevistas tecnicas como Ingeniero de software fronted
 ## Índice
 
 - [Buenas práticas](#buenas-practicas)
@@ -12,15 +10,9 @@
 - [Algoritmos y Estucturas de Datos](#algoritmos-y-estructuras-de-datos)
     - [Complejidad algoritmica](#complejidad-algoritmica)
     - [Estructuras de datos](#estructuras-de-datos)
-    - [Algoritmos](#algoritmos)
-    - [Visualizar algoritmos](visualizar-algoritmos)
     - [Practicar algoritmos y estructuras de datos](#practicar-algoritmos-y-estructuras-de-datos)
 - [Patrones de diseño](#patrones-de-diseño)
-- [Bases de datos](#bases-de-datos)
-    - [ORM's](#orms)
 - [Arquitectura de Software](#arquitectura-de-software)
-    - [Frontend](#frontend)
-    - [Backend](#backend)
 - [Preguntas más frecuentes](#preguntas-más-frecuentes)
 - [Ejercicios más comunes en entrevistas](#ejercicios-mas-comunes-en-entrevistas)
 - [Control de Versiones](#control-de-versiones)
@@ -28,29 +20,17 @@
 - [CI/CD](#cicd)
 - [Contenedores y Orquestación](#contenedores-y-orquestación)
 
-
-
 ## Buenas practicas
 
 ### Principios SOLID
 
 [SOLID en Javascript Vanilla Inglés](https://github.com/ryanmcdermott/clean-code-javascript#openclosed-principle-ocp)
 
-[SOLID en Vue.JS Inglés](https://medium.com/@moein.mirkiani/solid-principles-in-vue-29ecc988f968)
-
 [SOLID en React.JS Inglés](https://medium.com/docler-engineering/applying-solid-to-react-ca6d1ff926a4)
 
 [SOLID en Java Inglés](https://medium.com/@shavi22/solid-principles-in-java-cf9f5b167600)
 
 [SOLID en Java con Ejemplos Inglés](https://www.javaguides.net/2020/01/solid-principles-in-java-with-examples.html)
-
-[SOLID en C++ Inglés](https://nexwebsites.com/blog/solid-design-principles/)
-
-[SOLID en C++ con implemetación y ejemplos Inglés](https://medium.com/@aleksandra_shershen/solid-principles-implementation-and-examples-in-c-99f0d7e3e868)
-
-[SOLID en Python](https://realpython.com/solid-principles-python/)
-
-
 
 *********
 
@@ -65,14 +45,6 @@
 [Clean Code en Javascript Español](https://github.com/andersontr15/clean-code-javascript-es)
 
 [Clean Code en Javascript Inglés](https://github.com/ryanmcdermott/clean-code-javascript#openclosed-principle-ocp)
-
-[Clean Code en Python Español](https://github.com/sryvcr/clean-code-python-es)
-
-[Clean Code en Python Inglés](https://github.com/zedr/clean-code-python)
-
-[Clean Code en Java Español](https://github.com/alansastre/java-clean-code)
-
-[Clean Code en Java Inglés](https://github.com/JuanCrg90/Clean-Code-Notes)
 
 **********
 
@@ -92,11 +64,6 @@
 
 [30 JavaScript Best Practices for Beginners](https://code.tutsplus.com/24-javascript-best-practices-for-beginners--net-5399t)
 
-### Vue.js
-[12 VueJS Best Practices](https://learnvue.co/articles/vue-best-practices)
-
-[Vue Patterns](https://learn-vuejs.github.io/vue-patterns/patterns/#component-declaration)
-
 ### React.js
 
 [10 Best Practices for Writing Clean React Code](https://www.turing.com/kb/writing-clean-react-code)
@@ -107,198 +74,27 @@
 
 [React Best Practices Every Developer Have to Follow in 2023](https://technostacks.com/blog/react-best-practices/)
 
-### Angular
-
-[10 Best Practices for Building Scalable Angular Applications — With examples](https://medium.com/@mattias.trnqvist/10-best-practices-for-building-scalable-angular-applications-with-examples-efdfe2a5b4e8)
-
-[https://www.tatvasoft.com/blog/angular-optimization-and-best-practices/](https://www.tatvasoft.com/blog/angular-optimization-and-best-practices/)
-
-[Angular coding style guide](https://angular.io/guide/styleguide)
-
 ### Typescript
 
 [TypeScript best practices by AWS](https://docs.aws.amazon.com/prescriptive-guidance/latest/best-practices-cdk-typescript-iac/typescript-best-practices.html)
 
 [TypeScript Best Practices 2021](https://medium.com/@warkiringoda/typescript-best-practices-2021-a58aee199661)
 
-### Python
-
-[Code Style in Python](https://docs.python-guide.org/writing/style/)
-
-[Python Best Practices to Follow in 2023](https://aglowiditsolutions.com/blog/python-best-practices/)
-
-### dJango
-
-[dJango best practices 2022](https://www.linkedin.com/pulse/django-best-practices-2022-akshata-murudkar/)
-
-[Django Model Best Practices: Tips and Tricks for Clean and Efficient Code](https://medium.com/@schopade333/django-model-best-practices-c5c8a142dfc)
-
-[The 4 Clean Code Principles in Django](https://betterprogramming.pub/clean-code-principles-in-django-b0563a4e12f5)
-
-### Dart
-
-[Effective Dart: Design](https://dart.dev/effective-dart/design)
-
-### Flutter
-
-[Flutter Best Practices](https://itnext.io/flutter-best-practices-part-1-e89467ea4823)
-
-[The Dart Way: Best Coding Practices](https://articles.wesionary.team/the-dart-way-best-coding-practices-6ac693736090)
-
-[10 Best Practices Every Flutter Developer Should Follow](https://somniosoftware.com/post/top-10-flutter-best-practices)
-
-### Java
-
-[Java Best Practices (recomendado)](https://github.com/in28minutes/java-best-practices)
-
-[Java Best Practices](https://www.developer.com/languages/javascript/java-best-practices/)
-
-[10 best practices in Java](https://medium.com/@alexthedev/10-best-practices-in-java-dc0b06dda858)
-
-### C++
-
-[Collecting the best C++ practices](https://medium.com/@Code_Analysis/collecting-the-best-c-practices-4b867006849f)
-
-[Boost Your C++ Coding Skills: 5 Tips For Faster, Better Code](https://programminggyan.com/5-cpp-tips-for-faster-better-code/)
-
-### PHP
-
-[PHP Programming Best Practices and Coding Styles](https://medium.com/techlaboratory/php-programming-best-practices-and-coding-styles-e43234446fd3)
-
-[PHP Best Practices](https://phpbestpractices.org/)
-
-## Algoritmos y estructuras de datos
-
-### Complejidad algorítmica
-
-- [¿Qué es la complejidad algorítmica y con qué se come?](https://medium.com/@joseguillermo_/qué-es-la-complejidad-algorítmica-y-con-qué-se-come-2638e7fd9e8c)
-
-- [Introducción a Big O Notation](https://medium.com/nowports-tech/introducción-a-big-o-notation-95ecca8bd866)
-
-- [Analysis of Algorithms | Big-O analysis](https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/)
-
-
-
 ### Estructuras de datos
 
 - [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
 
-- [Python Data Structures](https://www.geeksforgeeks.org/python-data-structures/)
-
 - [Top Data Structures & Algorithms in Java That You Need to Know](https://medium.com/edureka/data-structures-algorithms-in-java-d27e915db1c5)
-
-- [Discovering PHP Data Structures: Arrays, Linked Lists, and Binary Trees](https://medium.com/@london.lingo.01/discovering-php-data-structures-arrays-linked-lists-and-binary-trees-501566f83bad)
-
-- [Efficient data structures for PHP 7](https://medium.com/@rtheunissen/efficient-data-structures-for-php-7-9dda7af674cd)
-
-- [C++'s Built-In Data Structures](https://www.codecademy.com/learn/c-plus-plus-for-programmers/modules/cpp-built-in-data-structures/cheatsheet)
-
-- [Data Structures using C | What are the Data Structure in C and How it works?](https://www.mygreatlearning.com/blog/data-structures-using-c/)
 
 
 ### Algoritmos
 
 - [Algoritmos en Javascript](https://github.com/TheAlgorithms/JavaScript)
 
-- [Algoritmos en Python](https://github.com/TheAlgorithms/Python)
-
-- [Algoritmos en Java](https://github.com/TheAlgorithms/Java)
-
-- [Algoritmos en C](https://github.com/TheAlgorithms/C)
-
-- [Algoritmos en Go](https://github.com/TheAlgorithms/Go)
-
-- [Algoritmos en C++](https://github.com/TheAlgorithms/C-Plus-Plus)
-
-- [Algoritmos en PHP](https://github.com/TheAlgorithms/PHP)
-
 - [Algoritmos en Typescript](https://github.com/TheAlgorithms/TypeScript)
-
-### Practicar algoritmos y estructuras de datos
-- [CodeWars](https://www.codewars.com/)
-
-- [LeetCode](https://leetcode.com)
-
-- [HackerRank](https://www.hackerrank.com/)
-
-- [CoderByte](https://coderbyte.com/)
-
-- [xercism](https://exercism.org/)
-
-## Visualizar algoritmos
-
-### [Visualgo](https://visualgo.net/)
-En esta web podrás ver como funcionan de manera visual los siguientes algoritmos:
-
-- Sorting
-    - Bubble Sort
-    - Selection Sort
-    - Insertion Sort
-    - Merge Sort
-    - Quick Sort
-    - Random Quick Sort
-    - Counting Sort
-    - Radix Sort
-
-- Linked List
-    - Stack
-    - Queue
-    - Doubly Linked List
-    - Deque
-
-- Hash Tables
-    - Linear Probing
-    - Quadratic Probing
-    - Double Hashing
-    - Separate Chaining
-- Binary Heap
-- Binary Search Tree
-    - AVL Tree
 
 ## Patrones de diseño
 [Patrones de diseño Español (Recomendación personal)](https://refactoring.guru/es/design-patterns)
-
-[Patrones de diseño en Javascript](https://www.patterns.dev/posts)
-
-- Patrones Creacionales
-    - Singleton
-    - Factory Method 
-    - Abstract Factory 
-    - Builder 
-    - Prototype
-- Patrones Estructurales
-    - Adapter
-    - Bridge
-    - Composite
-    - Decorator
-    - Facade
-    - Flyweight
-    - Proxy
-- Patrones de comportamiento
-    - Chain of Responsibility
-    - Command
-    - Iterator
-    - Mediator
-    - Memento
-    - Observer
-    - State
-    - Strategy
-    - Template Method
-    - Interpreter
-    - Visitor
-
-## Bases de datos
-- [20 ejemplos de consultas SQL básicas para principiantes: Una visión completa](https://learnsql.es/blog/20-ejemplos-de-consultas-sql-basicas-para-principiantes-una-vision-completa/)
-- [Top 50+ Database Interview Questions And Answers](https://www.softwaretestinghelp.com/database-interview-questions/)
-- [Top 50 Database Interview Questions and Answers (2024)](https://www.guru99.com/database-interview-questions.html)
-- [Choosing the Best Database: SQL vs NoSQL](https://medium.com/codex/choosing-the-best-database-sql-vs-nosql-a816a7ec09fc)
-- []()
-### ORM's
-- [¿Qué es un ORM?](https://wildpasco.medium.com/qué-es-un-orm-backend-bee59674e1d0)
-- [Introducción a Mongoose para MongoDB](https://www.freecodecamp.org/espanol/news/introduccion-a-mongoose-para-mongodb/)
-- [The Ultimate Guide To Get Started With Sequelize ORM](https://levelup.gitconnected.com/the-ultimate-guide-to-get-started-with-sequelize-orm-238588d3516e)
-
-
 
 ## Arquitectura de Software
 - [La guía definitiva de la arquitectura de software](https://medium.com/@ktufernando/la-guía-definitiva-de-la-arquitectura-del-software-f419db9c6bf7)
@@ -306,7 +102,6 @@ En esta web podrás ver como funcionan de manera visual los siguientes algoritmo
 - [Los 10 patrones comunes de arquitectura de software](https://medium.com/@maniakhitoccori/los-10-patrones-comunes-de-arquitectura-de-software-d8b9047edf0b)
 - [Arquitectura Hexagonal](https://medium.com/@edusalguero/arquitectura-hexagonal-59834bb44b7f)
 - [Domain Driven Design: principios, beneficios y elementos — Primera Parte](https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-primera-parte-aad90f30aa35)
-
 
 ### Frontend
 - [Arquitectura Hexagonal en el FrontEnd](https://softwarecrafters.io/react/arquitectura-hexagonal-frontend)
@@ -324,43 +119,11 @@ En esta web podrás ver como funcionan de manera visual los siguientes algoritmo
     - [Clean Architecture: Applying with React](https://dev.to/rubemfsv/clean-architecture-applying-with-react-40h6)
     - [React Clean Architecture](https://github.com/eduardomoroni/react-clean-architecture)
     - [Clean Architecture: Typescript and React](https://paulallies.medium.com/clean-architecture-typescript-and-react-8e509098abfe)
-- Vue JS Clean Architecture
-    - [Clean Architecture with VueJS](https://www.linkedin.com/pulse/clean-architecture-vuejs-ahsan-riaz/)
-    - [Vue Clean Architecture Github](https://github.com/smotastic/vue-clean-architecture)
-    - [Separating business logic from UI frameworks (React, Vue, Svelte, Angular, etc.) using clean architecture pattern](https://github.com/shamscorner/bloc-vue-3-clean-pattern)
-    - [Clean Architecture VueJS](https://github.com/thanhchungbtc/vue-shopping-clean-architecture)
-
-### Backend
-- Clean Architecture Java
-    - [Clean Architecture en la vida real JAVA](https://medium.com/@soyjuanmalopez/clean-architecture-en-la-vida-real-9da710e5ad4a)
-    - [Clean Architecture with Spring Boot: A good idea?](https://medium.com/@viniciusromualdobusiness/clean-architecture-with-spring-boot-a-good-idea-d6f97e450130)
-- Clean Architecture Python
-    - [Understanding clean architecture in Python — Deep dive on the code](https://medium.com/@surajit.das0320/understanding-clean-architecture-in-python-deep-dive-on-the-code-17141dc5761a)
-    - [Python Clean Architecture](https://github.com/pcah/python-clean-architecture)
-    - [Clean Architecture in Django](https://medium.com/21buttons-tech/clean-architecture-in-django-d326a4ab86a9)
-    - [Django Clean Architecture](https://github.com/jacob-y/django-clean-architecture)
-- Clean Architecture Express JS
-    - [Clean Architecture en Node y Express](https://www.linkedin.com/pulse/clean-architecture-en-node-y-express-odannys-de-la-cruz/?originalSubdomain=es)
-    - [Clean Architecture in Node.js](https://medium.com/@ben.dev.io/clean-architecture-in-node-js-39c3358d46f3)
-    - [Node.js Clean Architecture](https://github.com/panagiop/node.js-clean-architecture)
-- Clean Architecture PHP
-    - [Clean Architecture with PHP](https://medium.com/unil-ci-software-engineering/clean-architecture-with-php-22de915a6c50)
-    - [Clean Architecture with Laravel](https://dev.to/bdelespierre/how-to-implement-clean-architecture-with-laravel-2f2i)
-
 
 ## Preguntas más frecuentes
 - [Kill Your Tech Interview (recomendado)](https://www.fullstack.cafe)
-- [Vue Interview questions](https://github.com/sudheerj/vuejs-interview-questions)
 - [React Interview questions](https://github.com/sudheerj/reactjs-interview-questions)
-- [Angualar Interview questions](https://github.com/sudheerj/angular-interview-questions)
 - [Javascript Interview questions](https://github.com/sudheerj/javascript-interview-questions)
-- [Java Interview questions](https://github.com/Devinterview-io/java-interview-questions)
-- [Spring Interview questions](https://github.com/altafjava/spring-interview-questions-answers)
-- [PHP Interview questions](https://github.com/Devinterview-io/php-interview-questions)
-- [Python Interview questions](https://github.com/Devinterview-io/python-interview-questions)
-- [Django Interview questions](https://github.com/Ujjawal-Anand/django-interview)
-- [SQL Interview questions](https://github.com/kansiris/SQL-interview-questions/tree/master)
-- [Cracking the SQL interview](https://github.com/xoraus/CrackingTheSQLInterview)
 - Frontend Questions
     - [Front End Interview Handbook](https://www.frontendinterviewhandbook.com/introduction/)
     - [52 Frontend Interview Questions - JavaScript](https://dev.to/m_midas/52-frontend-interview-questions-javascript-59h6)
@@ -368,10 +131,6 @@ En esta web podrás ver como funcionan de manera visual los siguientes algoritmo
     - [11 senior front end developer interview questions and answers](https://anywhere.epam.com/en/blog/senior-front-end-developer-interview-questions)
     - [15 Frontend Developer Interview Questions (2023)](https://4dayweek.medium.com/15-frontend-developer-interview-questions-2023-91c7a9a628c1)
     - [Frontend Interview Questions [Top 250+]](https://frontendinterviewquestions.medium.com/frontend-interview-questions-top-250-92ba361cbbbd)
-- Backend Questions
-    - [Top 100 back-end developer interview questions and answers 2023](https://www.turing.com/interview-questions/back-end)
-    - [top 18 backend developer interview questions answered](https://anywhere.epam.com/en/blog/top-18-backend-developer-interview-questions-answered)
-    - [Backend SWE interview questions](https://github.com/tamhoang1412/backend-swe-interview-questions)
 
 ## Control de Versiones
 
@@ -384,7 +143,6 @@ En esta web podrás ver como funcionan de manera visual los siguientes algoritmo
 ### Workflows
 
 - [Cinco Git Workflows para mejorar nuestros proyectos](https://www.babelgroup.com/es/Media/Blog/Abril-2021/Cinco-Git-Workflows-para-mejores-proyectos)
-
 - [Git feature branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 - [Gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 - [Forking workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
@@ -406,9 +164,3 @@ En esta web podrás ver como funcionan de manera visual los siguientes algoritmo
 - [¿Qué es un contenedor? by Microsoft](https://azure.microsoft.com/es-mx/resources/cloud-computing-dictionary/what-is-a-container)
 
 - [Contenedores y Orquestación (Recomendado)](https://medium.com/@villamorosjuan/contenedores-y-orquestación-transformando-la-gestión-de-aplicaciones-en-producción-0f2ebbd8aac5)
-
-
-## Authors
-
-- [@devcaress](https://www.github.com/devcaress)
-
