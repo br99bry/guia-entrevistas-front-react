@@ -153,9 +153,6 @@
 
 - [Comprensión de la CI/CD by AWS](https://docs.aws.amazon.com/es_es/prescriptive-guidance/latest/strategy-cicd-litmus/understanding-cicd.html)
 
-- [What is CI/CD?](https://www.freecodecamp.org/news/what-is-ci-cd/)
-
-- [What is a DevOps pipeline?](https://resources.github.com/devops/pipeline/)
 
 ## Contenedores y Orquestación
 
